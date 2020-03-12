@@ -25,7 +25,7 @@ class Disk():
 
         pd()
 
-        fillcolor("blue")
+        fillcolor("Red")
 
         begin_fill()
 
