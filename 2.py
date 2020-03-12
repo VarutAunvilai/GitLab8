@@ -1,4 +1,4 @@
-from PySide.QtCore import *
+from PyQt5.QtCore import *
 
 
 class simple_paint_program(QWidget):
@@ -8,11 +8,13 @@ class simple_paint_program(QWidget):
         self.asd = QPixmap(400,400)
         
     def paintEvent(self, e):
-        p = QPainter()
+        p = QPainter(self)
+        p.begin(self)
+
+
         
-    
     def reset(self):
-        
+
 
 
 

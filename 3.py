@@ -1,4 +1,23 @@
 
+import turtle
+
+
+
+
+class Disk(name,x,y,height,width,color):
+    def __init__():
+    def showdisk():
+    def newpos(x,y):
+    def cleardisk():
+class Pole(name,stack,top,x,y,thick,length,color):
+    def __init__():
+
+    def showpole():
+    def pushdisk(disk):
+    
+    def popdisk():
+
+
 from turtle import *
 
 class Disk():
@@ -228,6 +247,7 @@ class Pole:
         disk = self.stack.pop(len(self.stack) - 1)
         disk.newpos(self.x, self.length + 50)
         return disk
+
 
 
 
