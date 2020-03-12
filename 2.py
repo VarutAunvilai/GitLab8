@@ -24,7 +24,6 @@ class Simple_drawing_window(QWidget):
         self.button.clicked.connect(self.clear_points)
 
 
-
     def clear_points(self):
 
         self.points = []
